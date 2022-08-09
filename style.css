@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   border: .1rem solid turquoise;
   padding: 1rem;
@@ -13,18 +14,14 @@ body {
   height: 100vh;
 }
 
-header {
-  /* your code */
-}
-
-main {
-  /* your code */
-}
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
   /* your code */
+  display: flex;
+  flex-direction: column;
 }
+
 main a {
   width: 5rem;
   border: .1rem solid peru;
@@ -32,16 +29,13 @@ main a {
   margin: .5rem 0rem;
 }
 
-.dog-list-container {
-  /* your code */
-}
 
 .fluid-text {
   font-size: 2rem;
 }
 
 .desktop-nav {
-  display:block;
+  display: block;
 }
 
 .single-dog-card {
@@ -59,4 +53,27 @@ main a {
 
 a {
   color: white;
+}
+
+.dog-list-container {
+  /* your code */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main nav {
+  /* your code */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  /* your code */
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  /* your code */
+  display: flex;
 }
